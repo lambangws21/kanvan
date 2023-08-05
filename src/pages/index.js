@@ -1,7 +1,17 @@
+/** @format */
+
 import Layout from "@/components/Layout";
 import { Inter } from "next/font/google";
-import { ChevronDownIcon, PlusIcon } from "@heroicons/react/24/solid";
+import {
+  ChatBubbleLeftEllipsisIcon,
+  ChevronDownIcon,
+  EllipsisVerticalIcon,
+  PaperAirplaneIcon,
+  PlusIcon,
+} from "@heroicons/react/24/solid";
 import Image from "next/image";
+import CardItems from "@/components/CardItems";
+import "../data/borad-data.json";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,7 +52,7 @@ export default function Home() {
               <li>
                 {" "}
                 <Image
-                  src="https://randomuser.me/api/portraits/men/21.jpg"
+                  src="https://randomuser.me/api/portraits/men/91.jpg"
                   width="36"
                   height="36"
                   objectFit="cover "
@@ -51,17 +61,23 @@ export default function Home() {
                 />
               </li>
               <button className="border border-dashed flex items-center  w-9 border-gray-500 rounded-full">
-                <PlusIcon className="w-9 h-9 text-gray-500"/>
+                <PlusIcon className="w-9 h-9 text-gray-500" />
               </button>
             </ul>
           </div>
         </div>
         {/* Board Columns */}
-        <div className="grid grid-cols-4 gap-5 bg-gray-300 ">
-          <div>
-            <h4>Backlog</h4>
+        <div className="grid grid-cols-4 gap-5 my-5 ">
+          <div className="bg-gray-100 rounded-md shadow-md p-2 flex flex-col relative overflow-hidden">
+            <span className="w-full h-1 bg-gradient-to-r bg-pink-700 to-red-400 rounded-md absolute inset-x-0 top-0"></span>
+            <h4 className="flex justify-between items-center mb-2">
+              <span className="text-2xl text-gray-600 ">Backlog</span>
+              <EllipsisVerticalIcon className="h-5 w-5 text-gray-700" />
+            </h4>
+            <CardItems />
+            <CardItems />
+            <CardItems />
           </div>
-
         </div>
       </div>
     </Layout>
