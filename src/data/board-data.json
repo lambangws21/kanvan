@@ -1,8 +1,9 @@
 [
   {
-    "name": "Backlog",
+    "name": "Kamar 1",
     "items": [
       {
+        "id": 1,
         "priority": 1,
         "title": "Tindakan Operasi Laparatomie",
         "chat": 0,
@@ -14,6 +15,7 @@
         ]
       },
       {
+        "id": 2,
         "priority": 3,
         "title": "Tindakan Operasi Laparaskopie",
         "chat": 9,
@@ -25,6 +27,7 @@
         ]
       },
       {
+        "id": 3,
         "priority": 0,
         "title": "Tindakan Operasi Laparaskopie",
         "chat": 4,
@@ -38,9 +41,10 @@
     ]
   },
   {
-    "name": "In Progress",
+    "name": "Kamar 2",
     "items": [
       {
+        "id": 4,
         "priority": 2,
         "title": "Tindakan Operasi Laparatomi Appendiktomie",
         "chat": 0,
@@ -52,6 +56,7 @@
         ]
       },
       {
+        "id": 5,
         "priority": 0,
         "title": "Tindakan Operasi Laparaskopie",
         "chat": 4,
@@ -63,6 +68,7 @@
         ]
       },
       {
+        "id": 6,
         "priority": 0,
         "title": "Tindakan Operasi Total Knee Replacement",
         "chat": 1,
@@ -76,9 +82,10 @@
     ]
   },
   {
-    "name": "In Review",
+    "name": "Kamar 3",
     "items": [
       {
+        "id": 7,
         "priority": 3,
         "title": "Tindakan Operasi Laparatomi Appendiktomie",
         "chat": 0,
@@ -90,6 +97,7 @@
         ]
       },
       {
+        "id": 8,
         "priority": 0,
         "title": "Tindakan SIrcumsisi",
         "chat": 0,
@@ -103,9 +111,10 @@
     ]
   },
   {
-    "name": "Completed",
+    "name": "Kamar 4",
     "items": [
       {
+        "id": 9,
         "priority": 0,
         "title": "Tindakan Operasi Laparatomi Appendiktomie",
         "chat": 0,
@@ -117,6 +126,7 @@
         ]
       },
       {
+        "id": 10,
         "priority": 0,
         "title": "Tindakan SIrcumsisi",
         "chat": 5,
