@@ -3,13 +3,24 @@
     "name": "Backlog",
     "items": [
       {
-        "priority": 0,
+        "priority": 1,
         "title": "Tindakan Operasi Laparatomie",
-        "chat": 2,
-        "Status": 1,
+        "chat": 0,
+        "Status": 0,
         "assignees": [
           {
             "avt": "https://randomuser.me/api/portraits/men/75.jpg"
+          }
+        ]
+      },
+      {
+        "priority": 3,
+        "title": "Tindakan Operasi Laparaskopie",
+        "chat": 9,
+        "Status": 2,
+        "assignees": [
+          {
+            "avt": "https://randomuser.me/api/portraits/men/5.jpg"
           }
         ]
       },
@@ -20,7 +31,7 @@
         "Status": 5,
         "assignees": [
           {
-            "avt": "https://randomuser.me/api/portraits/men/5.jpg"
+            "avt": "https://randomuser.me/api/portraits/men/15.jpg"
           }
         ]
       }
@@ -30,10 +41,10 @@
     "name": "In Progress",
     "items": [
       {
-        "priority": 0,
+        "priority": 2,
         "title": "Tindakan Operasi Laparatomi Appendiktomie",
         "chat": 0,
-        "Status": 3,
+        "Status": 0,
         "assignees": [
           {
             "avt": "https://randomuser.me/api/portraits/men/75.jpg"
@@ -50,6 +61,17 @@
             "avt": "https://randomuser.me/api/portraits/men/65.jpg"
           }
         ]
+      },
+      {
+        "priority": 0,
+        "title": "Tindakan Operasi Total Knee Replacement",
+        "chat": 1,
+        "Status": 0,
+        "assignees": [
+          {
+            "avt": "https://randomuser.me/api/portraits/men/65.jpg"
+          }
+        ]
       }
     ]
   },
@@ -57,7 +79,7 @@
     "name": "In Review",
     "items": [
       {
-        "priority": 2,
+        "priority": 3,
         "title": "Tindakan Operasi Laparatomi Appendiktomie",
         "chat": 0,
         "Status": 3,
@@ -68,7 +90,7 @@
         ]
       },
       {
-        "priority": 2,
+        "priority": 0,
         "title": "Tindakan SIrcumsisi",
         "chat": 0,
         "Status": 0,
@@ -84,7 +106,7 @@
     "name": "Completed",
     "items": [
       {
-        "priority": 2,
+        "priority": 0,
         "title": "Tindakan Operasi Laparatomi Appendiktomie",
         "chat": 0,
         "Status": 3,
@@ -95,7 +117,7 @@
         ]
       },
       {
-        "priority": 2,
+        "priority": 0,
         "title": "Tindakan SIrcumsisi",
         "chat": 5,
         "Status": 0,
